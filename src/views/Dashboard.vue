@@ -88,32 +88,65 @@
             <p class="text-muted">Performa agen in house yang didasarkan oleh status leads</p>
             <div class="card mt-3">
                 <div class="card-body">
-                    <table class="table table-sm">
+                    <table class="table table-sm table-responsive">
                         <thead>
                             <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Nama Agen</th>
+                            <th scope="col">Total leads</th>
+                            <th scope="col">Baru</th>
+                            <th scope="col">Follow up</th>
+                            <th scope="col">Appointment</th>
+                            <th scope="col">Site Visit</th>
+                            <th scope="col">Booking</th>
+                            <th scope="col">Booking Ditolak</th>
+                            <th scope="col">Drop</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
+                                <th>sales22</th>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
                             </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-4">
+            <h4>Jadwal Appointment In-house Sales</h4>
+            <p class="text-muted">Jadwal Appointment In-house Sales</p>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <table class="table table-sm table-responsive">
+                        <thead>
                             <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
+                            <th scope="col">Tanggal</th>
+                            <th scope="col">Waktu</th>
+                            <th scope="col">Nama Proyek</th>
+                            <th scope="col">Nama Prospek</th>
+                            <th scope="col">Nama Agen</th>
+                            <th scope="col">Lokasi</th>
+                            <th scope="col">Status Leads</th>
                             </tr>
+                        </thead>
+                        <tbody>
                             <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
+                                <th>31-12-2021</th>
+                                <td>11:31</td>
+                                <td>Apartemen</td>
+                                <td>Test</td>
+                                <td>Sales 1 Demo</td>
+                                <td>Sana</td>
+                                <td>-</td>
                             </tr>
                         </tbody>
                     </table>
