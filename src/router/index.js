@@ -12,6 +12,7 @@ const Leads =()=> import("../views/Leads")
 const Listing =()=> import("../views/Listing/Listing")
 const AddListing =()=> import("../views/Listing/AddListing")
 const DetailListing =()=> import("../views/Listing/DetailListing")
+const Appointment =()=> import("../views/Listing/Appointment")
 
 
 // Pages
@@ -42,6 +43,11 @@ const routes = [
                 path: "listing/detail-listing",
                 name: "DetailListing",
                 component: DetailListing
+            },
+            {
+                path: "listing/appointment",
+                name: "Appointment",
+                component: Appointment
             },
             {
                 path: "leads",
