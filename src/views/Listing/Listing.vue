@@ -53,11 +53,15 @@
                         </div>
                         <div class="col-md-9">
                             <p class="text-secondary temp"><b-icon icon="geo-alt-fill" aria-hidden="true"></b-icon> Pancoran Selatan, Jakarta City, Indonesia</p>
-                            <h5 class="mt-2 font-weight-bold text-dark">Apartemen 33</h5>
+                            <!-- <h5 class="mt-2 font-weight-bold text-dark">Apartemen 33</h5> -->
+                            <router-link :to="'listing/detail-listing'">
+                                <h5 class="mt-2 font-weight-bold">Apartemen 33</h5>
+                            </router-link>  
                             <h5 class="card-subtitle mb-2 text-danger">2 M<small class="text-muted" style="font-size: 13px;"> (Tanpa PPN)</small></h5>
                             <div class="row mt-3"><div class="col-md-6"><span class="border border-secondary p-1 px-3 ">Apartemen</span><span class="border border-secondary p-1 px-3 ml-2">2021</span></div></div>
-                            <p class="border border-danger d-inline-block p-2 mt-2 text-danger font-weight-normal text-uppercase mr-2">Komisi Agen SQM: 1%</p>
-                            <p class="border border-danger d-inline-block p-2 mt-2 text-danger font-weight-normal text-uppercase">Referral Fee Member: 1%</p>
+                            <h6 class="border border-danger d-inline-block p-2 mt-2 text-danger font-weight-normal text-uppercase mr-2">Komisi Agen SQM: 1%</h6>
+                            <h6 class="border border-danger d-inline-block p-2 mt-2 text-danger font-weight-normal text-uppercase">Referral Fee Member: 1%</h6>
+                            
                         </div>
                         <!-- <div class="col-md-2">
 
@@ -75,11 +79,11 @@
                             <span class="badge badge-success text-white text-uppercase mt-1" style="font-size: 14px;">AKTIF</span>
                             <span class="ml-2">
                                 <!-- <b-icon icon="eye-fill" aria-hidden="true"></b-icon> -->
-                                <router-link
+                                <!-- <router-link
                                 :to="'listing/detail-listing'"
                                 >
                                 <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
-                                </router-link>
+                                </router-link> -->
                             </span>
                             <span class="ml-2">
                                 <b-icon icon="trash-fill" aria-hidden="true"></b-icon>
@@ -102,7 +106,7 @@
                             <div class="">
                                 <div class="mb-2 mr-2">
                                     <!-- <div class="text-right"><a class="btn btn-primary btn-block btn-xs" href="/developer/my-listing/edit/723"><i class="typcn icon typcn-edit"></i> Update</a></div> -->
-                                    <div class="text-right"><b-button variant="danger" size="sm"><b-icon icon="pencil-square" aria-hidden="true"></b-icon> Update</b-button></div>
+                                    <div class="text-right"><b-button variant="danger" size="sm"><b-icon icon="pencil-square" aria-hidden="true"></b-icon> Edit</b-button></div>
                                 </div>
                             </div>
                             
@@ -130,11 +134,13 @@
                         </div>
                         <div class="col-md-9">
                             <p class="text-secondary temp"><b-icon icon="geo-alt-fill" aria-hidden="true"></b-icon> Pancoran Selatan, Jakarta City, Indonesia</p>
-                            <h5 class="mt-2 font-weight-bold text-dark">Apartemen 33</h5>
+                            <router-link :to="'listing/detail-listing'">
+                                <h5 class="mt-2 font-weight-bold">Apartemen 33</h5>
+                            </router-link>                            
                             <h5 class="card-subtitle mb-2 text-danger">2 M<small class="text-muted" style="font-size: 13px;"> (Tanpa PPN)</small></h5>
                             <div class="row mt-3"><div class="col-md-6"><span class="border border-secondary p-1 px-3 ">Apartemen</span><span class="border border-secondary p-1 px-3 ml-2">2021</span></div></div>
-                            <p class="border border-danger d-inline-block p-2 mt-2 text-danger font-weight-normal text-uppercase mr-2">Komisi Agen SQM: 1%</p>
-                            <p class="border border-danger d-inline-block p-2 mt-2 text-danger font-weight-normal text-uppercase">Referral Fee Member: 1%</p>
+                            <h6 class="border border-danger d-inline-block p-2 mt-2 text-danger font-weight-normal text-uppercase mr-2">Komisi Agen SQM: 1%</h6>
+                            <h6 class="border border-danger d-inline-block p-2 mt-2 text-danger font-weight-normal text-uppercase">Referral Fee Member: 1%</h6>
                         </div>
                         <!-- <div class="col-md-2">
 
@@ -152,11 +158,11 @@
                             <span class="badge badge-secondary text-white text-uppercase mt-1" style="font-size: 14px;">Draft</span>
                             <span class="ml-2">
                                 <!-- <b-icon icon="eye-fill" aria-hidden="true"></b-icon> -->
-                                <router-link
+                                <!-- <router-link
                                 :to="'listing/detail-listing'"
                                 >
                                 <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
-                                </router-link>
+                                </router-link> -->
                             </span>
                             <span class="ml-2">
                                 <b-icon icon="trash-fill" aria-hidden="true"></b-icon>
@@ -177,7 +183,7 @@
                             <div class="">
                                 <div class="mb-2 mr-2">
                                     <!-- <div class="text-right"><a class="btn btn-primary btn-block btn-xs" href="/developer/my-listing/edit/723"><i class="typcn icon typcn-edit"></i> Update</a></div> -->
-                                    <div class="text-right"><b-button variant="danger" size="sm"><b-icon icon="pencil-square" aria-hidden="true"></b-icon> Update</b-button></div>
+                                    <div class="text-right"><b-button variant="danger" size="sm"><b-icon icon="pencil-square" aria-hidden="true"></b-icon> Edit</b-button></div>
                                 </div>
                             </div>
                             

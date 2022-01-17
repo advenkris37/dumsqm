@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Lato'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
 
 /* Imagine Dashboard
 
@@ -9,10 +10,12 @@ http://skote.vuejs-light.themesbrand.com/*/
 
 html body{
   /* font-family: 'Lato', sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Nunito Sans', sans-serif;
   /* background-color: aqua !important; */
   /* background-color: #eeeef8; */
   background-color: #f8f8fb;
+  /* background-color: white; */
   color: #686c71;
 }
 /* Scrollbar */

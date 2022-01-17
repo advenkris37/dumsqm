@@ -5,6 +5,7 @@ import VueRouter from "vue-router";
 const Nav = () => import("../components/Navigation")
 
 const Logins = () => import("../views/Login")
+// const Page404 = () => import("../views/Page404")
 const Dashboard =()=> import("../views/Dashboard")
 const Leads =()=> import("../views/Leads")
 
@@ -65,12 +66,13 @@ const routes = [
                 return c ("router-view");
             },
         },
+        
         children: [
             {
                 path: "login",
                 name: "Login,",
                 component: Logins,
-            }
+            },
         ]
     }
 ]

@@ -88,35 +88,37 @@
             <p class="text-muted">Performa agen in house yang didasarkan oleh status leads</p>
             <div class="card mt-3">
                 <div class="card-body">
-                    <table class="table table-sm table-responsive">
-                        <thead>
-                            <tr>
-                            <th scope="col">Nama Agen</th>
-                            <th scope="col">Total leads</th>
-                            <th scope="col">Baru</th>
-                            <th scope="col">Follow up</th>
-                            <th scope="col">Appointment</th>
-                            <th scope="col">Site Visit</th>
-                            <th scope="col">Booking</th>
-                            <th scope="col">Booking Ditolak</th>
-                            <th scope="col">Drop</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>sales22</th>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-reponsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                <th scope="col">Nama Agen</th>
+                                <th scope="col">Total leads</th>
+                                <th scope="col">Baru</th>
+                                <th scope="col">Follow up</th>
+                                <th scope="col">Appointment</th>
+                                <th scope="col">Site Visit</th>
+                                <th scope="col">Booking</th>
+                                <th scope="col">Booking Ditolak</th>
+                                <th scope="col">Drop</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td >sales22</td >
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <!-- <td>3</td> -->
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,30 +128,32 @@
             <p class="text-muted">Jadwal Appointment In-house Sales</p>
             <div class="card mt-3">
                 <div class="card-body">
-                    <table class="table table-sm table-responsive">
-                        <thead>
-                            <tr>
-                            <th scope="col">Tanggal</th>
-                            <th scope="col">Waktu</th>
-                            <th scope="col">Nama Proyek</th>
-                            <th scope="col">Nama Prospek</th>
-                            <th scope="col">Nama Agen</th>
-                            <th scope="col">Lokasi</th>
-                            <th scope="col">Status Leads</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>31-12-2021</th>
-                                <td>11:31</td>
-                                <td>Apartemen</td>
-                                <td>Test</td>
-                                <td>Sales 1 Demo</td>
-                                <td>Sana</td>
-                                <td>-</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                <th scope="col">Tanggal</th>
+                                <th scope="col">Waktu</th>
+                                <th scope="col">Nama Proyek</th>
+                                <th scope="col">Nama Prospek</th>
+                                <th scope="col">Nama Agen</th>
+                                <th scope="col">Lokasi</th>
+                                <th scope="col">Status Leads</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>31-12-2021</td>
+                                    <td>11:31</td>
+                                    <td>Apartemen</td>
+                                    <td>Test</td>
+                                    <td>Sales 1 Demo</td>
+                                    <td>Sana</td>
+                                    <td>-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

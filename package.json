@@ -17,7 +17,8 @@
     "vue-filepond": "^7.0.2",
     "vue-flatpickr-component": "^8.1.7",
     "vue-router": "^3.5.3",
-    "vue2-dropzone": "^3.6.0"
+    "vue2-dropzone": "^3.6.0",
+    "vuejs-google-maps": "^0.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
