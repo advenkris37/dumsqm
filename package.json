@@ -12,6 +12,8 @@
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
+    "highcharts": "^9.3.2",
+    "highcharts-vue": "^1.4.0",
     "vue": "^2.6.14",
     "vue-apexcharts": "^1.6.2",
     "vue-filepond": "^7.0.2",

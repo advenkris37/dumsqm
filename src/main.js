@@ -12,7 +12,12 @@ import 'vuejs-google-maps/dist/vuejs-google-maps.css'
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import HighchartsVue from 'highcharts-vue'
+import Highcharts from 'highcharts'
+import highchartsFunnel from 'highcharts/modules/funnel'
 
+Vue.use(HighchartsVue)
+highchartsFunnel(Highcharts);
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
