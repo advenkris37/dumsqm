@@ -19,7 +19,7 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 // Vue.use(VueGoogleMap, {
 //   load: {
-//       apiKey: 'AIzaSyBhckzzc9M_OWIGaP9jyEhWBfU4kAi9hFk',
+//       apiKey: '',
 //       libraries: [places]
 //   }
 // })
