@@ -14,6 +14,7 @@ const Listing =()=> import("../views/Listing/Listing")
 const AddListing =()=> import("../views/Listing/AddListing")
 const DetailListing =()=> import("../views/Listing/DetailListing")
 const Appointment =()=> import("../views/Listing/Appointment")
+const Statistik =()=> import("../views/Statistik")
 
 
 // Pages
@@ -54,6 +55,11 @@ const routes = [
                 path: "leads",
                 name: "Leads",
                 component: Leads
+            },
+            {
+                path: "statistik",
+                name: "Statistik",
+                component: Statistik
             }
         ]
     },
@@ -66,7 +72,7 @@ const routes = [
                 return c ("router-view");
             },
         },
-        
+
         children: [
             {
                 path: "login",
